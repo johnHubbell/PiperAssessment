@@ -1,0 +1,16 @@
+﻿<Window x:Class="PiperAssessment.Wpf.SplashWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PiperAssessment.Wpf"
+        mc:Ignorable="d" Height="400" Width="700" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Background="{x:Null}" >
+    <Grid Background="#FFD7CCD0">
+
+        <ProgressBar IsIndeterminate="True" Margin="0,384,0,-1" />
+        <TextBlock 
+                    RenderTransformOrigin="0.352,13.673" Margin="314,383,332,0">Loading...</TextBlock>
+        <Image HorizontalAlignment="Center" Height="125" Margin="0,159,0,0" VerticalAlignment="Top" Width="290" Source="/PiperLogo.png"/>
+        <Image Margin="182,156,200,156" Source="/assets/PiperLogo.png" Stretch="Fill"/>
+    </Grid>
+</Window>
