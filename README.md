@@ -21,10 +21,10 @@ dotnet run
 
 **1- Splash Screen**
 
-![spash.png](D:\Development\Misc\PiperAssessment\docs\spash.png)
+![spash.png](https://github.com/johnHubbell/PiperAssessment/blob/main/docs/spash.png)
 
 
 
 **2- Main Page**
 
-![welcome.png](D:\Development\Misc\PiperAssessment\docs\welcome.png)
+![welcome.png](https://github.com/johnHubbell/PiperAssessment/blob/main/docs/welcome.png)
