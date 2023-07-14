@@ -1,17 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
 
 namespace PiperAssessment.Wpf
 {
@@ -20,9 +7,27 @@ namespace PiperAssessment.Wpf
     /// </summary>
     public partial class MainWindow : Window
     {
+        bool _messageState = true;
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void btn_enter_Click(object sender, RoutedEventArgs e)
+        {
+            if (_messageState)
+            {
+                tb_message.Text = "ImagineSoftware is a leading provider of medical billing, revnue cycle, and practice management software";
+                btn_enter.Content = "Exit";
+                _messageState = false;
+            }
+            else
+            {
+                tb_message.Text = "Hit the Enter Key";
+                btn_enter.Content = "Enter";
+                _messageState = true;
+            }
         }
     }
 }

@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PiperAssessment.Wpf"
         mc:Ignorable="d"
-        Title="Welcome" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
-    <Grid>
+        Title="Welcome" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="/favicon.png">
+    <Grid Background="#FFF7F2F2">
+        <TextBlock HorizontalAlignment="Center" Margin="0,34,0,0" TextWrapping="Wrap" Text="Welcome To PiperCompanies" VerticalAlignment="Top" Height="43" Width="754" FontWeight="Bold" TextAlignment="Center" LineHeight="72" FontSize="24" Foreground="#FF9D1111"/>
+        <Button x:Name="btn_enter" Content="Enter" HorizontalAlignment="Center" Margin="0,369,0,0" VerticalAlignment="Top" Height="26" Width="308" Background="#FFF4DBDB" FontWeight="Bold" Click="btn_enter_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <TextBlock x:Name="tb_message" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Hit the Enter Key" VerticalAlignment="Center" Height="77" Width="256" TextAlignment="Center" FontWeight="Bold"/>
 
     </Grid>
 </Window>
