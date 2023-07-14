@@ -1,6 +1,6 @@
 # Piper Assessment
 
-Before running a project you should First Download [DotNetCore6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) and install it.
+Before running a project you should First Download [DotNet6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) and install it.
 
 This Project is created with WPF.
 
