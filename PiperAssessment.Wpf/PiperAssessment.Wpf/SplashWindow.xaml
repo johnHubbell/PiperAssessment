@@ -10,7 +10,6 @@
         <ProgressBar IsIndeterminate="True" Margin="0,384,0,-1" />
         <TextBlock 
                     RenderTransformOrigin="0.352,13.673" Margin="314,383,332,0">Loading...</TextBlock>
-        <Image HorizontalAlignment="Center" Height="125" Margin="0,159,0,0" VerticalAlignment="Top" Width="290" Source="/PiperLogo.png"/>
-        <Image Margin="182,156,200,156" Source="/assets/PiperLogo.png" Stretch="Fill"/>
+        <Image HorizontalAlignment="Center" Height="133" VerticalAlignment="Center" Width="306" Source="/PiperLogo.png"/>
     </Grid>
 </Window>
